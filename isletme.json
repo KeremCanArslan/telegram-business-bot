@@ -1,0 +1,49 @@
+{
+  "ad": "Lezzet Durağı (Demo)",
+  "karsilama": "Merhaba, Lezzet Durağı'na hoş geldiniz. Menüye bakabilir, sipariş verebilir veya masa ayırtabilirsiniz.",
+  "adres": "Örnek Mah. Demo Cad. No: 1, Çankaya / Ankara",
+  "telefon": "0 (312) 000 00 00",
+  "saatler": "Her gün 10:00 - 23:00",
+  "menu": {
+    "Burgerler": [
+      {"id": "b1", "ad": "Klasik Burger", "fiyat": 280},
+      {"id": "b2", "ad": "Cheddar Burger", "fiyat": 320},
+      {"id": "b3", "ad": "Tavuk Burger", "fiyat": 250}
+    ],
+    "Yan Ürünler": [
+      {"id": "y1", "ad": "Patates Kızartması", "fiyat": 90},
+      {"id": "y2", "ad": "Soğan Halkası", "fiyat": 110}
+    ],
+    "İçecekler": [
+      {"id": "i1", "ad": "Ayran", "fiyat": 40},
+      {"id": "i2", "ad": "Limonata", "fiyat": 70}
+    ],
+    "Tatlılar": [
+      {"id": "t1", "ad": "Sufle", "fiyat": 150}
+    ]
+  },
+  "teslimat": {"min_tutar": 300, "ucret": 40, "ucretsiz_esik": 750, "sure": "35-45 dakika"},
+  "rezervasyon": {
+    "saatler": ["12:00", "13:00", "14:00", "19:00", "20:00", "21:00"],
+    "slot_kapasite": 4,
+    "gun_sayisi": 7,
+    "max_kisi": 8
+  },
+  "sss": [
+    {"soru": "Glutensiz ürününüz var mı?",
+     "cevap": "Burgerlerimizi glutensiz ekmekle hazırlayabiliyoruz; siparişte not olarak belirtmeniz yeterli.",
+     "anahtar": ["gluten", "çölyak"]},
+    {"soru": "Kartla ödeme alıyor musunuz?",
+     "cevap": "Kapıda nakit ve kredi kartı ile ödeme alıyoruz; yemek kartlarından Multinet ve Sodexo geçerli.",
+     "anahtar": ["kart", "ödeme", "nakit", "multinet", "sodexo"]},
+    {"soru": "Paket servis bölgeniz neresi?",
+     "cevap": "Çankaya ilçesinin tamamına ve Kızılay çevresine teslimat yapıyoruz.",
+     "anahtar": ["bölge", "teslimat", "servis", "getiriyor", "geliyor mu"]},
+    {"soru": "Otopark var mı?",
+     "cevap": "Restoranın hemen yanında ücretsiz otopark bulunuyor.",
+     "anahtar": ["otopark", "park"]},
+    {"soru": "Çocuk menünüz var mı?",
+     "cevap": "Evet, küçük boy burger + patates + meyve suyundan oluşan çocuk menümüz 190 TL.",
+     "anahtar": ["çocuk"]}
+  ]
+}
